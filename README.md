@@ -1,30 +1,39 @@
- 1 – Vẽ sơ đồ
-Vẽ sơ đồ ngữ cảnh (Context Diagram) – cho thấy hệ thống liên kết với ai và dữ liệu gì.
-Vẽ sơ đồ Use Case – liệt kê các chức năng mà người dùng có thể làm.
-Vẽ sơ đồ ERD – cho thấy các bảng dữ liệu và mối liên hệ.
+Người 1 – Thiết kế và quản lý cơ sở dữ liệu
 
- 2 – Viết tài liệu
-Viết phần mô tả hệ thống (hệ thống dùng để làm gì).
-Viết yêu cầu chức năng (hệ thống có những chức năng nào).
-Viết yêu cầu phi chức năng (tốc độ, bảo mật, dễ dùng…).
+Tạo mô hình ERD (Entity Relationship Diagram).
 
-3 – Thiết kế giao diện
-Thiết kế mẫu giao diện (trang chủ, trang mua vé, trang quản lý…).
-Dùng Figma, Canva hoặc PowerPoint để vẽ mẫu.
+Tạo và quản lý bảng dữ liệu (Users, Events, Tickets, Orders, Payments…).
 
-4 – Viết code chức năng chính
-Làm các chức năng chính như:
-Đăng nhập/đăng ký
-Tìm kiếm sự kiện
-Đặt vé và thanh toán
+Viết script SQL để tạo và kết nối cơ sở dữ liệu với API.
 
-5 – Viết code chức năng phụ
-Làm các chức năng phụ như:
-Quản lý thông tin sự kiện
-Gửi email xác nhận vé
-Quản lý người dùng 
+Người 2 – API quản lý người dùng (User API)
 
-Bước cuối – Cả nhóm cùng làm
-Kiểm thử: Chạy thử toàn bộ chương trình xem có lỗi không.
-Sửa lỗi (debug): Nếu có lỗi, mọi người cùng nhau sửa.
-Hoàn thiện báo cáo và chuẩn bị thuyết trình.
+Đăng ký tài khoản, đăng nhập.
+
+Xem, sửa, xóa thông tin người dùng.
+
+Quản lý quyền hạn (admin, user).
+
+Người 3 – API quản lý sự kiện (Event API)
+
+Thêm, sửa, xóa sự kiện.
+
+Lấy danh sách sự kiện.
+
+Tìm kiếm sự kiện theo tên hoặc ngày.
+
+Người 4 – API quản lý vé và đặt vé (Ticket & Booking API)
+
+Tạo vé cho từng sự kiện.
+
+Người dùng đặt vé, hủy vé.
+
+Kiểm tra số lượng vé còn lại.
+
+Người 5 – API thanh toán và báo cáo (Payment & Report API)
+
+Xử lý thanh toán (giả lập hoặc kết nối cổng thanh toán).
+
+Xem lịch sử thanh toán.
+
+Thống kê doanh thu theo sự kiện.
