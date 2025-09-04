@@ -1,0 +1,35 @@
+#!/bin/bash
+echo "================================"
+echo " SETUP PROJECT: Hệ thống quản lí sự kiện "
+echo "================================"
+
+# Backend Setup
+echo "[1/3] 🔧 Cài đặt môi trường Backend..."
+cd Backend || exit
+if [ ! -d "venv" ]; then
+    echo " Tạo virtual environment cho Backend..."
+    python -m venv venv
+fi
+source venv/bin/activate
+echo " Cài đặt thư viện Python cho Backend..."
+if [ -f "requirements.txt" ]; then
+    pip install -r requirements.txt
+else
+    echo "⚠️ Không tìm thấy requirements.txt, cài thư viện mặc định..."
+    pip install fastapi uvicorn flask sqlalchemy sqlite3
+fi
+cd ..
+
+# Frontend Setup
+echo "[2/3] 🎨 Cài đặt môi trường Frontend..."
+cd Frontend || exit
+if [ -f "package.json" ]; then
+    npm install
+else
+    echo "⚠️ Không tìm thấy package.json, vui lòng tạo project React/Vue/Angular trước."
+fi
+cd ..
+
+# Finish
+echo "[3/3] ✅ Hoàn tất cài đặt hệ thống Event Management!"
+echo "Bạn có thể chạy dự án bằng: bash run.sh"
