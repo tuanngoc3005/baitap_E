@@ -1,4 +1,4 @@
-# Event Management System – FU Biz Startup
+# HỆ THỐNG QUẢN LÝ SỰ KIỆN
 
 ## Mục tiêu
 Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khởi nghiệp FU:
