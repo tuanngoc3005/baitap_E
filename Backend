@@ -1,0 +1,29 @@
+# Event Management System – Backend
+
+Backend service cho hệ thống tổ chức sự kiện có bán vé và seminar.  
+---
+
+## Kiến trúc thư mục (Architecture)
+
+```bash
+
+Backend/
+├── docs/                  # Tài liệu API, Swagger, hướng dẫn
+├── src/                   # Source code chính
+│   ├── api/               # Định nghĩa API
+│   │   ├── controllers/   # Xử lý logic (business logic)
+│   │   ├── models/        # Khai báo Model (ORM)
+│   │   ├── routes/        # Định nghĩa endpoint
+│   │   └── __init__.py
+│   ├── config/            # Cấu hình (database, env, logging, ...)
+│   ├── utils/             # Helper functions
+│   └── main.py            # Điểm khởi động server
+├── migrations/            # Quản lý migration DB
+├── scripts/               # Script hỗ trợ (deploy, run db, seed data)
+│   └── run_postgres.sh
+├── .gitignore
+├── default.db             # Database mặc định (SQLite)
+├── requirements.txt       # Danh sách thư viện cần cài
+├── swagger_config.json    # Swagger config
+├── How to make API.txt    # Hướng dẫn tạo API
+└── README.md              # Tài liệu này
