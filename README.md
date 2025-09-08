@@ -1,4 +1,4 @@
-<img width="883" height="802" alt="image" src="https://github.com/user-attachments/assets/9bfb84b9-f764-4b7e-a7a4-220adb2bf435" /># HỆ THỐNG QUẢN LÝ SỰ KIỆN
+
 
 ## Mục tiêu
 Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khởi nghiệp FU:
