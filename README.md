@@ -37,14 +37,14 @@ Dự án này là một Hệ thống Quản lý Sự kiện (Event Management Sy
 
 ## 3. Nền tảng Kỹ thuật
 Các chức năng phong phú của hệ thống được xây dựng trên một cấu trúc dữ liệu chặt chẽ. Cốt lõi của hệ thống là một tập hợp các thực thể (entities) được liên kết với nhau một cách logic.
-User: Là lớp cơ sở cho tất cả các loại người dùng (Admin, Operator, Sponsor, Checking Staff, Visitor). Thiết kế kế thừa này giúp hệ thống trở nên linh hoạt và dễ mở rộng.
-Event: Đây là thực thể trung tâm, lưu trữ mọi thông tin liên quan đến một sự kiện cụ thể.
-Ticket: Đại diện cho một vé đã mua, mỗi vé được gán một mã QR duy nhất và liên kết với cả người mua lẫn sự kiện.
-SponsorshipPackage: Định nghĩa chi tiết các gói tài trợ, liên kết với cả sự kiện và nhà tài trợ.
+- User: Là lớp cơ sở cho tất cả các loại người dùng (Admin, Operator, Sponsor, Checking Staff, Visitor). Thiết kế kế thừa này giúp hệ thống trở nên linh hoạt và dễ mở rộng.
+- Event: Đây là thực thể trung tâm, lưu trữ mọi thông tin liên quan đến một sự kiện cụ thể.
+- Ticket: Đại diện cho một vé đã mua, mỗi vé được gán một mã QR duy nhất và liên kết với cả người mua lẫn sự kiện.
+- SponsorshipPackage: Định nghĩa chi tiết các gói tài trợ, liên kết với cả sự kiện và nhà tài trợ.
 
 ## CHỨC NĂNG
-## gồm các tác nhân:
-## Người tham gia (Visitor)
+ **gồm các tác nhân:**
+ **Người tham gia (Visitor)**
   + Đăng ký và Đăng nhập:
       - Hệ thống phải cho phép người dùng đăng ký tài khoản mới bằng email và mật khẩu.
       - Hệ thống phải có chức năng đăng nhập an toàn, xác thực thông tin người dùng.
