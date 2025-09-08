@@ -28,12 +28,12 @@ Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khở
 Dự án này là một Hệ thống Quản lý Sự kiện (Event Management System) toàn diện, được xây dựng để quản lý toàn bộ vòng đời của một sự kiện, từ khâu lên ý tưởng cho đến việc phân tích sau sự kiện. Hệ thống hoạt động như một nền tảng trung gian, kết nối và tự động hóa các quy trình cho tất cả các bên liên quan: ban tổ chức, người tham dự, nhà tài trợ và đội ngũ quản trị.
 
 ## 2. Các Vai trò và Chức năng Chính
-Hệ thống được thiết kế theo cấu trúc phân quyền rõ ràng, đảm bảo mỗi loại người dùng chỉ có thể truy cập vào các chức năng phù hợp với vai trò của họ.
-Người tham dự (Visitor): Đây là đối tượng người dùng cuối cùng và quan trọng nhất. Họ có thể đăng ký và đăng nhập vào hệ thống để duyệt các sự kiện. Chức năng cốt lõi là mua vé trực tuyến, sau đó sử dụng mã QR code được cấp để check-in tại sự kiện một cách nhanh chóng. Sau khi sự kiện kết thúc, họ có thể hoàn thành các khảo sát để đóng góp ý kiến.
-Ban tổ chức (Event Operator): Đây là những người tạo ra nội dung chính của hệ thống. Họ có thể tạo sự kiện mới, quản lý toàn bộ thông tin chi tiết của sự kiện (bao gồm mô tả, ngày, địa điểm và loại vé), đồng thời theo dõi hiệu suất thông qua các báo cáo về doanh thu và số lượng vé bán ra.
-Nhà tài trợ (Sponsor): Các cá nhân hoặc tổ chức sử dụng nền tảng này để tìm kiếm và đăng ký tài trợ cho các sự kiện. Hệ thống cung cấp một quy trình có cấu trúc để họ dễ dàng đăng ký và quản lý gói tài trợ của mình.
-Nhân viên check-in (Checking Staff): Những người này hoạt động tại địa điểm tổ chức sự kiện. Họ được trang bị một công cụ đặc biệt để quét mã vé của người tham dự, xác thực thông tin và cập nhật trạng thái check-in, đảm bảo quy trình ra vào diễn ra suôn sẻ.
-Admin: Là người quản trị tối cao. Họ chịu trách nhiệm quản lý tất cả người dùng và phân quyền cho họ (ví dụ: cấp quyền Ban tổ chức), cũng như điều chỉnh các thiết lập chung của hệ thống.
++ Hệ thống quản lý sự kiện này phục vụ năm nhóm người dùng chính, mỗi nhóm có một bộ chức năng riêng biệt:
+      **Người tham gia (Visitor):** Có thể đăng ký tài khoản, mua vé trực tuyến và sử dụng mã QR để check-in tại sự kiện.
+      **Ban tổ chức (Event Operator):** Có trách nhiệm tạo, quản lý sự kiện và xem các báo cáo về hiệu suất sự kiện.
+      **Nhà tài trợ (Sponsor):** Đăng ký và quản lý các gói tài trợ cho các sự kiện.
+      **Nhân viên check-in (Checking Staff):** Sử dụng công cụ để quét mã vé và xác minh thông tin người tham dự tại địa điểm.
+      **Admin:** Có quyền cao nhất để quản lý người dùng, phân quyền và điều chỉnh các cài đặt chung của hệ thống.
 
 ## 3. Nền tảng Kỹ thuật
 Các chức năng phong phú của hệ thống được xây dựng trên một cấu trúc dữ liệu chặt chẽ. Cốt lõi của hệ thống là một tập hợp các thực thể (entities) được liên kết với nhau một cách logic.
