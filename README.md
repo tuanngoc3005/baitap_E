@@ -1,4 +1,4 @@
-# HỆ THỐNG QUẢN LÝ SỰ KIỆN
+<img width="883" height="802" alt="image" src="https://github.com/user-attachments/assets/9bfb84b9-f764-4b7e-a7a4-220adb2bf435" /># HỆ THỐNG QUẢN LÝ SỰ KIỆN
 
 ## Mục tiêu
 Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khởi nghiệp FU:
@@ -90,4 +90,10 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
       - Họ có thể thay đổi vai trò (quyền hạn) của người dùng.
 + Quản lý hệ thống:
       - Admin có thể quản lý các cài đặt chung của hệ thống và phân quyền cho các vai trò khác nhau.
+
+  
+## SƠ ĐÒ QUY TRÌNH 
+<img width="883" height="802" alt="image" src="https://github.com/user-attachments/assets/5abfc140-7415-4db4-9d33-076cd8174129" />
+
+
 
