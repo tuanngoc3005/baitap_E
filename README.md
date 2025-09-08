@@ -28,12 +28,12 @@ Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khở
 Dự án này là một Hệ thống Quản lý Sự kiện (Event Management System) toàn diện, được xây dựng để quản lý toàn bộ vòng đời của một sự kiện, từ khâu lên ý tưởng cho đến việc phân tích sau sự kiện. Hệ thống hoạt động như một nền tảng trung gian, kết nối và tự động hóa các quy trình cho tất cả các bên liên quan: ban tổ chức, người tham dự, nhà tài trợ và đội ngũ quản trị.
 
 ## 2. Các Vai trò và Chức năng Chính
-- Hệ thống quản lý sự kiện này phục vụ năm nhóm người dùng chính, mỗi nhóm có một bộ chức năng riêng biệt:
-      **Người tham gia (Visitor):** Có thể đăng ký tài khoản, mua vé trực tuyến và sử dụng mã QR để check-in tại sự kiện.
-      **Ban tổ chức (Event Operator):** Có trách nhiệm tạo, quản lý sự kiện và xem các báo cáo về hiệu suất sự kiện.
-      **Nhà tài trợ (Sponsor):** Đăng ký và quản lý các gói tài trợ cho các sự kiện.
-      **Nhân viên check-in (Checking Staff):** Sử dụng công cụ để quét mã vé và xác minh thông tin người tham dự tại địa điểm.
-      **Admin:** Có quyền cao nhất để quản lý người dùng, phân quyền và điều chỉnh các cài đặt chung của hệ thống.
++ Hệ thống quản lý sự kiện này phục vụ năm nhóm người dùng chính, mỗi nhóm có một bộ chức năng riêng biệt:
+     - **Người tham gia (Visitor):** Có thể đăng ký tài khoản, mua vé trực tuyến và sử dụng mã QR để check-in tại sự kiện.
+     - **Ban tổ chức (Event Operator):** Có trách nhiệm tạo, quản lý sự kiện và xem các báo cáo về hiệu suất sự kiện.
+     - **Nhà tài trợ (Sponsor):** Đăng ký và quản lý các gói tài trợ cho các sự kiện.
+     - **Nhân viên check-in (Checking Staff):** Sử dụng công cụ để quét mã vé và xác minh thông tin người tham dự tại địa điểm.
+     - **Admin:** Có quyền cao nhất để quản lý người dùng, phân quyền và điều chỉnh các cài đặt chung của hệ thống.
 
 ## 3. Nền tảng Kỹ thuật
 Các chức năng phong phú của hệ thống được xây dựng trên một cấu trúc dữ liệu chặt chẽ. Cốt lõi của hệ thống là một tập hợp các thực thể (entities) được liên kết với nhau một cách logic.
