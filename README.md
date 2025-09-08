@@ -1,3 +1,5 @@
+## SƠ ĐỒ TỔNG QUÁT
+<img width="539" height="762" alt="image" src="https://github.com/user-attachments/assets/656f95ff-cb59-423a-a29d-ccde0bfdc32f" />
 
 
 ## Mục tiêu
