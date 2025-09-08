@@ -93,7 +93,26 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 
   
 ## SƠ ĐÒ QUY TRÌNH 
+**Đăng ký và đăng nhập**
 <img width="883" height="802" alt="image" src="https://github.com/user-attachments/assets/5abfc140-7415-4db4-9d33-076cd8174129" />
+**Quản lý sự kiện**
+<img width="1409" height="807" alt="image" src="https://github.com/user-attachments/assets/c6e16676-709d-4bea-8a23-548386294226" />
+**Đăng ký và tham gia**
+<img width="948" height="800" alt="image" src="https://github.com/user-attachments/assets/b9ee6303-0c08-4fd4-b5b8-2b3213652c44" />
+**Mua vé và thanh toán**
+<img width="1331" height="689" alt="image" src="https://github.com/user-attachments/assets/540fda7f-aea9-458e-b3dc-03764896175d" />
+**Check in**
+<img width="1185" height="657" alt="image" src="https://github.com/user-attachments/assets/1f3d5a24-486a-4a84-90ed-9d04d8831174" />
+**Quản lý và diễn giả**
+<img width="1047" height="807" alt="image" src="https://github.com/user-attachments/assets/73018116-266f-4121-9ceb-78137b7fe859" />
+**Báo cáo và khảo sát**
+<img width="1526" height="749" alt="image" src="https://github.com/user-attachments/assets/878e6c5a-ec23-44d0-badc-5b81cbac47ee" />
+
+
+
+
+
+
 
 
 
