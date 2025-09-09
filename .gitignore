@@ -4,7 +4,7 @@
 ############################################
 
 # ==========================
-# 🐍 Python - Backend (Flask)
+#  Backend (Flask)
 # ==========================
 
 # Byte-compiled / optimized files
@@ -64,7 +64,7 @@ dmypy.json
 .pytype/
 
 # ==========================
-# ⚛️ Frontend - Node.js (Vite/React)
+#  Frontend - Node.js (Vite/React)
 # ==========================
 
 # Dependencies
@@ -87,7 +87,7 @@ build/
 .env.*.local
 
 # ==========================
-# ⚙️ Editor & IDE
+# Editor & IDE
 # ==========================
 
 # VSCode
@@ -103,7 +103,7 @@ build/
 .spyproject
 
 # ==========================
-# 🧪 Misc
+#  Misc
 # ==========================
 
 # OS files
