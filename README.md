@@ -1,4 +1,4 @@
-## SƠ ĐỒ TỔNG QUÁT
+## SƠ ĐỒ TỔNG QUÁT PHẦN MỀM TỔ CHỨC SỰ KIỆN CÓ BÁN VÉ
 <img width="539" height="762" alt="image" src="https://github.com/user-attachments/assets/656f95ff-cb59-423a-a29d-ccde0bfdc32f" />
 
 
