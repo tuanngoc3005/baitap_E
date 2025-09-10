@@ -14,11 +14,11 @@ Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khở
 - diagrams/
 
 ## Kế hoạch 
-- Day1: Skeleton + README (tài liệu hiện tại)
-- Day2: Vẽ sơ đồ (Context, Use Case, ERD)
+- Day1: Skeleton + README 
+- Day2: Vẽ sơ đồ 
 - Day3: Backend: login/register
 - Day4: Backend: events, tickets, qr
-- Day5: Frontend: giao diện cơ bản
+- Day5: Frontend: giao diện
 - Day6: Check-in & Sponsor
 - Day7: Hoàn thiện, test
 - Day8: Nộp báo cáo 
@@ -37,30 +37,35 @@ Dự án này là một Hệ thống Quản lý Sự kiện (Event Management Sy
 
 ## 3. Nền tảng Kỹ thuật
 Các chức năng phong phú của hệ thống được xây dựng trên một cấu trúc dữ liệu chặt chẽ. Cốt lõi của hệ thống là một tập hợp các thực thể (entities) được liên kết với nhau một cách logic.
-- User: Là lớp cơ sở cho tất cả các loại người dùng (Admin, Operator, Sponsor, Checking Staff, Visitor). Thiết kế kế thừa này giúp hệ thống trở nên linh hoạt và dễ mở rộng.
-- Event: Đây là thực thể trung tâm, lưu trữ mọi thông tin liên quan đến một sự kiện cụ thể.
-- Ticket: Đại diện cho một vé đã mua, mỗi vé được gán một mã QR duy nhất và liên kết với cả người mua lẫn sự kiện.
-- SponsorshipPackage: Định nghĩa chi tiết các gói tài trợ, liên kết với cả sự kiện và nhà tài trợ.
+- User: Lớp cơ sở (Visitor, Admin, Operator, Sponsor, Checking Staff).
+- Event: ưu trữ toàn bộ thông tin sự kiện.
+- Ticket: ại diện cho một vé (liên kết User + Event, có QR code duy nhất)
+- Payment: lưu trữ giao dịch mua vé, trạng thái thanh toán.
+- SponsorshipPackage: Các gói tài trợ, liên kết với Sponsor + Event.
+- Survey: khảo sát sau sự kiện, liên kết với Event + User.
 
 ## CHỨC NĂNG
- **gồm các tác nhân:**
+ **gồm các chức năng chính :**
  **Người tham gia (Visitor)**
   + Đăng ký và Đăng nhập:
-      - Hệ thống phải cho phép người dùng đăng ký tài khoản mới bằng email và mật khẩu.
-      - Hệ thống phải có chức năng đăng nhập an toàn, xác thực thông tin người dùng.
-      - Hệ thống phải có chức năng "Quên mật khẩu".
+      - Cho phép người dùng đăng ký tài khoản mới bằng email và mật khẩu.
+      - Có chức năng đăng nhập an toàn, xác thực thông tin người dùng.
+      - ó chức năng "Quên mật khẩu".
 + Quản lý sự kiện:
-      - Người dùng phải có thể xem danh sách tất cả các sự kiện công khai.
-      - Họ có thể lọc và tìm kiếm sự kiện theo tên, ngày, hoặc địa điểm.
-      - Họ có thể xem chi tiết sự kiện, bao gồm mô tả, thời gian, địa điểm, và các loại vé.
+      - Có thể xem danh sách tất cả các sự kiện công khai.
+      - Có thể lọc và tìm kiếm sự kiện theo tên, ngày, hoặc địa điểm.
+      - ó thể xem chi tiết sự kiện, bao gồm mô tả, thời gian, địa điểm, và các loại vé.
 + Mua vé:
-      - Người dùng phải có thể chọn loại vé và số lượng mong muốn.
-      - Hệ thống phải tích hợp cổng thanh toán trực tuyến để xử lý giao dịch mua vé.
-      - Sau khi thanh toán thành công, hệ thống phải tự động tạo và gửi vé điện tử (dưới dạng mã QR) đến email của người dùng.
+      - Có thể chọn loại vé và số lượng mong muốn.
+      - Tích hợp cổng thanh toán trực tuyến để xử lý giao dịch mua vé.
+      - Sau khi thanh toán thành công, tự động tạo và gửi vé điện tử (dưới dạng mã QR) đến email của người dùng.
 + Check-in:
-      - Hệ thống phải cho phép người dùng sử dụng mã QR trên vé điện tử để check-in tại sự kiện.
+      - ho phép người dùng sử dụng mã QR để check-in tại sự kiện.
+      - Xác minh vé và cập nhật trạng thái.
+      - Thông báo khi vé không hợp lệ.  
 + Khảo sát:
-      - Người dùng phải có thể truy cập và hoàn thành các khảo sát sau sự kiện
+      - Có thể truy cập và hoàn thành các khảo sát sau sự kiện.
+      - an tổ chức xem báo cáo thống kê: số lượng vé bán, số người tham gia, phản hồi khảo sát. 
 
 **Ban tổ chức (Event Operator)**
     Quản lý sự kiện:
@@ -86,8 +91,8 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 **Admin**
 + Quản lý người dùng:
       - Admin phải có thể xem danh sách tất cả người dùng trong hệ thống.
-      - Họ có thể thêm, chỉnh sửa và xóa tài khoản người dùng.
-      - Họ có thể thay đổi vai trò (quyền hạn) của người dùng.
+      - Có thể thêm, chỉnh sửa và xóa tài khoản người dùng.
+      - Có thể thay đổi vai trò (quyền hạn) của người dùng.
 + Quản lý hệ thống:
       - Admin có thể quản lý các cài đặt chung của hệ thống và phân quyền cho các vai trò khác nhau.
 
