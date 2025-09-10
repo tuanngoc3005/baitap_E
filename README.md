@@ -1,5 +1,6 @@
 ## SƠ ĐỒ TỔNG QUÁT PHẦN MỀM TỔ CHỨC SỰ KIỆN CÓ BÁN VÉ
-<img width="539" height="762" alt="image" src="https://github.com/user-attachments/assets/656f95ff-cb59-423a-a29d-ccde0bfdc32f" />
+<img width="352" height="458" alt="image" src="https://github.com/user-attachments/assets/f0f52b5f-a34e-4a02-9e69-7f60261f5eac" />
+
 
 
 ## Mục tiêu
