@@ -29,7 +29,7 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 - SponsorshipPackage: Các gói tài trợ, liên kết với Sponsor + Event.
 - Survey: khảo sát sau sự kiện, liên kết với Event + User.
 
-## SƠ ĐỒ TỔNG 
+## BIỂU ĐỒ TỔNG QUAN
 **1. Context DG**
 
 <img width="1033" height="748" alt="context DG" src="https://github.com/user-attachments/assets/d5f8a7a8-88f7-4740-847f-3fd0f5b6c424" />
