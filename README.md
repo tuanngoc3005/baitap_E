@@ -96,11 +96,39 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
      - Admin có thể quản lý các cài đặt chung của hệ thống và phân quyền cho các vai trò khác nhau.
 
 ## BIỂU ĐỒ CHI TIẾT 
- 1. Đăng ký và tham gia 
+ **1. Đăng ký và đăng nhập** 
 
-<img width="1033" height="748" alt="đăng ký và tham gia" src="https://github.com/user-attachments/assets/ab902d7d-a288-4eee-9842-af4b32326a3d" />
+<img width="1033" height="748" alt="đăng ký và đăng nhập" src="https://github.com/user-attachments/assets/d689c18f-2f81-4457-8526-f72f815e4729" />
 
 
+## 2. Đăng ký và tham gia 
+
+<img width="1033" height="748" alt="đăng ký và tham gia" src="https://github.com/user-attachments/assets/2276031d-2a72-4871-a481-33a1bbe4fd8b" />
+
+
+## 3. mua vé và thanh toán 
+
+<img width="1033" height="748" alt="mua vé và thanh toán" src="https://github.com/user-attachments/assets/3b1dd4e3-8d69-4f84-9b46-0876b5b2fd71" />
+
+
+## 4. Check in
+
+<img width="1033" height="748" alt="check in" src="https://github.com/user-attachments/assets/3a7c8fb7-9f11-4c3a-b36a-9c75a1776f7b" />
+
+
+## 5. Quản lý sự kiện
+
+<img width="1033" height="748" alt="quản lý sự kiện" src="https://github.com/user-attachments/assets/dfce3f0a-01e4-4ebe-a07e-1e77f685ded6" />
+
+
+## 6. Quản lý và diễn giả
+
+<img width="1033" height="748" alt="quản lý và diễn giả" src="https://github.com/user-attachments/assets/ff3b053b-9244-40bd-b512-c21e5db82c56" />
+
+
+## 7. Báo cáo và khảo sát
+
+<img width="1033" height="748" alt="báo cáo và khảo sát" src="https://github.com/user-attachments/assets/f96e581d-90fb-4914-83ff-687a7a11658e" />
 
 
 
