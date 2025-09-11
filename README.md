@@ -98,7 +98,7 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 ## BIỂU ĐỒ CHI TIẾT 
  1. Đăng ký và tham gia 
 
-<img width="568" height="228" alt="đăng ký và tham gia" src="https://github.com/user-attachments/assets/ab902d7d-a288-4eee-9842-af4b32326a3d" />
+<img width="1033" height="748" alt="đăng ký và tham gia" src="https://github.com/user-attachments/assets/ab902d7d-a288-4eee-9842-af4b32326a3d" />
 
 
 
