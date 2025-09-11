@@ -29,7 +29,7 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 - SponsorshipPackage: Các gói tài trợ, liên kết với Sponsor + Event.
 - Survey: khảo sát sau sự kiện, liên kết với Event + User.
 
-## SƠ ĐỒ MINH HỌA
+## SƠ ĐỒ TỔNG 
 **1. Context DG**
 
 <img width="1033" height="748" alt="context DG" src="https://github.com/user-attachments/assets/d5f8a7a8-88f7-4740-847f-3fd0f5b6c424" />
@@ -95,8 +95,10 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 + Quản lý hệ thống:
      - Admin có thể quản lý các cài đặt chung của hệ thống và phân quyền cho các vai trò khác nhau.
 
-  
+## BIỂU ĐỒ CHI TIẾT 
+ 1. Đăng ký và tham gia 
 
+<img width="568" height="228" alt="đăng ký và tham gia" src="https://github.com/user-attachments/assets/ab902d7d-a288-4eee-9842-af4b32326a3d" />
 
 
 
