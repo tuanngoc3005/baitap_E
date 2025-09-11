@@ -67,7 +67,7 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
      - an tổ chức xem báo cáo thống kê: số lượng vé bán, số người tham gia, phản hồi khảo sát. 
 
 **Ban tổ chức (Event Operator)**
-    Quản lý sự kiện:
+     Quản lý sự kiện:
      - Họ phải có khả năng tạo một sự kiện mới với đầy đủ thông tin: tên, mô tả, thời gian, địa điểm, hình ảnh.
      - Họ phải có thể thêm, chỉnh sửa và xóa các loại vé cho sự kiện của mình.
      - Họ có thể cập nhật thông tin sự kiện hoặc xóa sự kiện đã tạo.
