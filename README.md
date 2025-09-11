@@ -136,7 +136,7 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 - Hệ thống phải có khả năng xử lý ít nhất 500 – 1000 người dùng truy cập đồng thời mà không bị gián đoạn.
 - Thời gian phản hồi cho mỗi thao tác quan trọng (đăng nhập, mua vé, check-in) trong điều kiện tải bình thường.
 - Hệ thống phải đảm bảo tốc độ tải trang sự kiện.
-- 
+
 **2. Bảo mật**
 - Tất cả thông tin nhạy cảm (mật khẩu, thông tin thanh toán) phải được mã hóa.
 - Hỗ trợ xác thực an toàn (email verification, mã OTP khi cần).
