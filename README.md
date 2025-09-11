@@ -131,6 +131,36 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 <img width="1033" height="748" alt="báo cáo và khảo sát" src="https://github.com/user-attachments/assets/f96e581d-90fb-4914-83ff-687a7a11658e" />
 
 
+## YÊU CẦU PHI CHỨC NĂNG
+**1. Hiệu năng**
+- Hệ thống phải có khả năng xử lý ít nhất 500 – 1000 người dùng truy cập đồng thời mà không bị gián đoạn.
+- Thời gian phản hồi cho mỗi thao tác quan trọng (đăng nhập, mua vé, check-in) trong điều kiện tải bình thường.
+- Hệ thống phải đảm bảo tốc độ tải trang sự kiện.
+**2. Bảo mật**
+- Tất cả thông tin nhạy cảm (mật khẩu, thông tin thanh toán) phải được mã hóa.
+- Hỗ trợ xác thực an toàn (email verification, mã OTP khi cần).
+- Chống SQL Injection, XSS, CSRF và các lỗ hổng phổ biến.
+- Phân quyền chặt chẽ giữa các vai trò (Visitor, Event Operator, Sponsor, Staff, Admin).
+**3. Khả năng mở rộng**
+- Hệ thống phải dễ dàng mở rộng để phục vụ nhiều sự kiện diễn ra cùng lúc.
+- Cho phép thêm module mới (ví dụ: livestream, tích hợp với mạng xã hội) mà không ảnh hưởng đến chức năng sẵn có.
+**4. Khả dụng & Độ tin cậy**
+- Hệ thống phải đạt thời gian hoạt động.
+- Dữ liệu sự kiện và vé cần được sao lưu tự động hàng ngày.
+- Có cơ chế phục hồi nhanh nếu có sự cố.
+**5. Khả năng sử dụng**
+- Giao diện phải thân thiện, hỗ trợ cả máy tính và thiết bị di động.
+- Người dùng mới có thể thao tác mua vé hoặc check-in chỉ trong ≤ 3 bước.
+- Ngôn ngữ: hỗ trợ đa ngôn ngữ (ít nhất Tiếng Việt và Tiếng Anh).
+**6. Tính tương thích**
+- Hệ thống hoạt động tốt trên các trình duyệt phổ biến (Chrome, Firefox, Edge, Safari).
+- Ứng dụng check-in bằng QR code phải chạy ổn định trên Android và iOS.
+**7. Quản lý & Giám sát**
+- Tuân theo chuẩn lập trình để dễ bảo trì.
+- Có hệ thống log và giám sát để theo dõi hoạt động đăng nhập, mua vé, check-in.
+- Cập nhật, bảo trì định kỳ mà không ảnh hưởng lớn đến người dùng.
+
+
 
 
 
