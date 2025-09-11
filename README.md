@@ -45,7 +45,7 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
  **gồm các chức năng chính :**
  **Người tham gia (Visitor)**
   + Đăng ký và Đăng nhập:
-      - Cho phép người dùng đăng ký tài khoản mới bằng email và mật khẩu.
+     - Cho phép người dùng đăng ký tài khoản mới bằng email và mật khẩu.
       - Có chức năng đăng nhập an toàn, xác thực thông tin người dùng.
       - ó chức năng "Quên mật khẩu".
 + Quản lý sự kiện:
