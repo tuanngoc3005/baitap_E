@@ -7,22 +7,6 @@ Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khở
 - Hỗ trợ sponsor quản lý gian hàng.
 - Thống kê và gửi khảo sát sau sự kiện.
 
-## Cấu trúc (skeleton)
-- Backend/
-- Frontend/
-- docs/
-- diagrams/
-
-## Kế hoạch 
-- Day1: Skeleton + README 
-- Day2: Vẽ sơ đồ 
-- Day3: Backend: login/register
-- Day4: Backend: events, tickets, qr
-- Day5: Frontend: giao diện
-- Day6: Check-in & Sponsor
-- Day7: Hoàn thiện, test
-- Day8: Nộp báo cáo 
-
 ## TỔNG QUAN  
 ## 1. Tổng quan về Dự án
 Dự án này là một Hệ thống Quản lý Sự kiện (Event Management System) toàn diện, được xây dựng để quản lý toàn bộ vòng đời của một sự kiện, từ khâu lên ý tưởng cho đến việc phân tích sau sự kiện. Hệ thống hoạt động như một nền tảng trung gian, kết nối và tự động hóa các quy trình cho tất cả các bên liên quan: ban tổ chức, người tham dự, nhà tài trợ và đội ngũ quản trị.
