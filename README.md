@@ -46,52 +46,52 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
  **Người tham gia (Visitor)**
   + Đăng ký và Đăng nhập:
      - Cho phép người dùng đăng ký tài khoản mới bằng email và mật khẩu.
-      - Có chức năng đăng nhập an toàn, xác thực thông tin người dùng.
-      - ó chức năng "Quên mật khẩu".
+     - Có chức năng đăng nhập an toàn, xác thực thông tin người dùng.
+     - ó chức năng "Quên mật khẩu".
 + Quản lý sự kiện:
-      - Có thể xem danh sách tất cả các sự kiện công khai.
-      - Có thể lọc và tìm kiếm sự kiện theo tên, ngày, hoặc địa điểm.
-      - ó thể xem chi tiết sự kiện, bao gồm mô tả, thời gian, địa điểm, và các loại vé.
+     - Có thể xem danh sách tất cả các sự kiện công khai.
+     - Có thể lọc và tìm kiếm sự kiện theo tên, ngày, hoặc địa điểm.
+     - ó thể xem chi tiết sự kiện, bao gồm mô tả, thời gian, địa điểm, và các loại vé.
 + Mua vé:
-      - Có thể chọn loại vé và số lượng mong muốn.
-      - Tích hợp cổng thanh toán trực tuyến để xử lý giao dịch mua vé.
-      - Sau khi thanh toán thành công, tự động tạo và gửi vé điện tử (dưới dạng mã QR) đến email của người dùng.
+     - Có thể chọn loại vé và số lượng mong muốn.
+     - Tích hợp cổng thanh toán trực tuyến để xử lý giao dịch mua vé.
+     - Sau khi thanh toán thành công, tự động tạo và gửi vé điện tử (dưới dạng mã QR) đến email của người dùng.
 + Check-in:
-      - ho phép người dùng sử dụng mã QR để check-in tại sự kiện.
-      - Xác minh vé và cập nhật trạng thái.
-      - Thông báo khi vé không hợp lệ.  
+     - ho phép người dùng sử dụng mã QR để check-in tại sự kiện.
+     - Xác minh vé và cập nhật trạng thái.
+     - Thông báo khi vé không hợp lệ.  
 + Khảo sát:
-      - Có thể truy cập và hoàn thành các khảo sát sau sự kiện.
-      - an tổ chức xem báo cáo thống kê: số lượng vé bán, số người tham gia, phản hồi khảo sát. 
+     - Có thể truy cập và hoàn thành các khảo sát sau sự kiện.
+     - an tổ chức xem báo cáo thống kê: số lượng vé bán, số người tham gia, phản hồi khảo sát. 
 
 **Ban tổ chức (Event Operator)**
     Quản lý sự kiện:
-      - Họ phải có khả năng tạo một sự kiện mới với đầy đủ thông tin: tên, mô tả, thời gian, địa điểm, hình ảnh.
-      - Họ phải có thể thêm, chỉnh sửa và xóa các loại vé cho sự kiện của mình.
-      - Họ có thể cập nhật thông tin sự kiện hoặc xóa sự kiện đã tạo.
+     - Họ phải có khả năng tạo một sự kiện mới với đầy đủ thông tin: tên, mô tả, thời gian, địa điểm, hình ảnh.
+     - Họ phải có thể thêm, chỉnh sửa và xóa các loại vé cho sự kiện của mình.
+     - Họ có thể cập nhật thông tin sự kiện hoặc xóa sự kiện đã tạo.
 + Xem báo cáo:
-      - Họ có thể xem báo cáo về số lượng vé đã bán và doanh thu theo thời gian thực.
-      - Họ phải có thể xem báo cáo về số lượng người đã check-in tại sự kiện.
+     - Họ có thể xem báo cáo về số lượng vé đã bán và doanh thu theo thời gian thực.
+     - Họ phải có thể xem báo cáo về số lượng người đã check-in tại sự kiện.
   
 **Nhà tài trợ (Sponsor)**
 + Đăng ký tài trợ:
-      - Hệ thống phải cho phép nhà tài trợ xem các gói tài trợ có sẵn.
-      - Họ có thể đăng ký tài trợ cho một sự kiện cụ thể và quản lý thông tin của gói tài trợ đó.
+     - Hệ thống phải cho phép nhà tài trợ xem các gói tài trợ có sẵn.
+     - Họ có thể đăng ký tài trợ cho một sự kiện cụ thể và quản lý thông tin của gói tài trợ đó.
   
 **Nhân viên check-in (Checking Staff)**
 + Xác minh vé:
-      - Họ phải sử dụng một ứng dụng hoặc thiết bị chuyên biệt để quét mã QR trên vé.
-      - Hệ thống phải xác thực vé ngay lập tức và hiển thị thông tin chi tiết (ví dụ: tên người mua, loại vé).
-      - Hệ thống phải cập nhật trạng thái của vé thành "đã sử dụng" sau khi check-in thành công.
-      - thống phải có thông báo lỗi nếu vé không hợp lệ hoặc đã được sử dụng.
+     - Họ phải sử dụng một ứng dụng hoặc thiết bị chuyên biệt để quét mã QR trên vé.
+     - Hệ thống phải xác thực vé ngay lập tức và hiển thị thông tin chi tiết (ví dụ: tên người mua, loại vé).
+     - Hệ thống phải cập nhật trạng thái của vé thành "đã sử dụng" sau khi check-in thành công.
+     - thống phải có thông báo lỗi nếu vé không hợp lệ hoặc đã được sử dụng.
   
 **Admin**
 + Quản lý người dùng:
-      - Admin phải có thể xem danh sách tất cả người dùng trong hệ thống.
-      - Có thể thêm, chỉnh sửa và xóa tài khoản người dùng.
-      - Có thể thay đổi vai trò (quyền hạn) của người dùng.
+     - Admin phải có thể xem danh sách tất cả người dùng trong hệ thống.
+     - Có thể thêm, chỉnh sửa và xóa tài khoản người dùng.
+     - Có thể thay đổi vai trò (quyền hạn) của người dùng.
 + Quản lý hệ thống:
-      - Admin có thể quản lý các cài đặt chung của hệ thống và phân quyền cho các vai trò khác nhau.
+     - Admin có thể quản lý các cài đặt chung của hệ thống và phân quyền cho các vai trò khác nhau.
 
   
 
