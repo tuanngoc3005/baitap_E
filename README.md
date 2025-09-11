@@ -1,7 +1,7 @@
 ##  PHẦN MỀM TỔ CHỨC SỰ KIỆN CÓ BÁN VÉ
 
 ## Mục tiêu
-Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khởi nghiệp FU:
+Hệ thống quản lý bán vé và tổ chức seminar:
 - Quản lý đăng ký & bán vé.
 - Check-in bằng QR code.
 - Hỗ trợ sponsor quản lý gian hàng.
@@ -9,7 +9,8 @@ Hệ thống quản lý bán vé và tổ chức seminar cho bộ môn Biz/Khở
 
 ## TỔNG QUAN  
 ## 1. Tổng quan về Dự án
-Dự án này là một Hệ thống Quản lý Sự kiện (Event Management System) toàn diện, được xây dựng để quản lý toàn bộ vòng đời của một sự kiện, từ khâu lên ý tưởng cho đến việc phân tích sau sự kiện. Hệ thống hoạt động như một nền tảng trung gian, kết nối và tự động hóa các quy trình cho tất cả các bên liên quan: ban tổ chức, người tham dự, nhà tài trợ và đội ngũ quản trị.
+Dự án này là một Hệ thống Quản lý Sự kiện (Event Management System) toàn diện, được xây dựng để quản lý toàn bộ vòng đời của một sự kiện, từ khâu lên ý tưởng cho đến việc phân tích sau sự kiện. 
+Hệ thống hoạt động như một nền tảng trung gian, kết nối và tự động hóa các quy trình cho tất cả các bên liên quan: ban tổ chức, người tham dự, nhà tài trợ và đội ngũ quản trị.
 
 ## 2. Các Vai trò và Chức năng Chính
 + Hệ thống quản lý sự kiện này phục vụ năm nhóm người dùng chính, mỗi nhóm có một bộ chức năng riêng biệt:
