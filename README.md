@@ -32,9 +32,7 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 ## SƠ ĐỒ MINH HỌA
 **1. Context DG**
 
-<img width="264" height="232" alt="context DG" src="https://github.com/user-attachments/assets/d5f8a7a8-88f7-4740-847f-3fd0f5b6c424" />
-
-<img width="1033" height="748" alt="image" src="https://github.com/user-attachments/assets/286311cf-65a7-440f-8ffa-3f20d20d0289" />
+<img width="1033" height="748" alt="context DG" src="https://github.com/user-attachments/assets/d5f8a7a8-88f7-4740-847f-3fd0f5b6c424" />
 
 
 **2. Usecase tổng quan**
