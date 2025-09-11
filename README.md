@@ -46,16 +46,16 @@ Các chức năng phong phú của hệ thống được xây dựng trên một
 
 ## SƠ ĐỒ MINH HỌA
 **1. Context DG**
+
 <img width="264" height="232" alt="context DG" src="https://github.com/user-attachments/assets/d5f8a7a8-88f7-4740-847f-3fd0f5b6c424" />
 
 **2. Usecase tổng quan**
+
 <img width="177" height="233" alt="tổng quan quản lý sự kiện" src="https://github.com/user-attachments/assets/cbeca660-1b7c-4485-aa92-766bbdc801d4" />
 
 **3. ERD**
+
 <img width="226" height="274" alt="ERD" src="https://github.com/user-attachments/assets/6be8b8ac-6bd2-4938-8f0b-121d4e17c7cd" />
-
-
-
 
 ## CHỨC NĂNG
  **gồm các chức năng chính :**
